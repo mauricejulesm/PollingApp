@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd08b3a0-a880-409c-bc15-9481874d96ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pollsapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pollsapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsapp/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsapp/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/templates/polls/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.63731825">
+    <splitter split-orientation="horizontal" split-proportion="0.5121477">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -64,8 +64,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pollsapp/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="359">
-                  <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+                <state relative-caret-position="342">
+                  <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
                   <folding>
                     <element signature="e#0#36#0" expanded="true" />
                   </folding>
@@ -75,7 +75,11 @@
           </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/detail.html">
-              <provider selected="true" editor-type-id="text-editor" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+                </state>
+              </provider>
             </entry>
           </file>
         </leaf>
@@ -86,7 +90,7 @@
             <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
-                  <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+                  <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -111,8 +115,9 @@
         <option value="$PROJECT_DIR$/pollsapp/admin.py" />
         <option value="$PROJECT_DIR$/pollsapp/models.py" />
         <option value="$PROJECT_DIR$/pollsapp/urls.py" />
-        <option value="$PROJECT_DIR$/pollsapp/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/pollsapp/views.py" />
+        <option value="$PROJECT_DIR$/pollsapp/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/pollsapp/templates/polls/index.html" />
       </list>
     </option>
   </component>
@@ -145,6 +150,19 @@
               <item name="Polling" type="b2602c69:ProjectViewProjectNode" />
               <item name="Polling" type="462c0819:PsiDirectoryNode" />
               <item name="pollsapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Polling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Polling" type="462c0819:PsiDirectoryNode" />
+              <item name="pollsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Polling" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Polling" type="462c0819:PsiDirectoryNode" />
+              <item name="pollsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="polls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,25 +233,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588244832701</updated>
-      <workItem from="1588244834675" duration="6077000" />
+      <workItem from="1588244834675" duration="6440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6077000" />
+    <option name="totallyTimeSpent" value="6440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16962843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -310,17 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pollsapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="342">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -328,7 +339,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
