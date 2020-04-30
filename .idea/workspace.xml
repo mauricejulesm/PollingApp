@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd08b3a0-a880-409c-bc15-9481874d96ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Polling/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Polling/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pollsapp/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pollsapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pollsapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pollsapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pollsapp/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,18 +16,6 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Polling/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#1#33#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pollsapp/urls.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
@@ -42,7 +27,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pollsapp/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
@@ -55,10 +40,25 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py">
+            <entry file="file://$PROJECT_DIR$/pollsapp/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="112" selection-start-line="112" selection-end-line="112" />
+                <state relative-caret-position="253">
+                  <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#1#34#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pollsapp/tests.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -89,7 +89,7 @@
             <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/detail.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
-                  <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+                  <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
                   <folding>
                     <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
                   </folding>
@@ -114,13 +114,14 @@
       <list>
         <option value="$PROJECT_DIR$/Polling/settings.py" />
         <option value="$PROJECT_DIR$/pollsapp/admin.py" />
-        <option value="$PROJECT_DIR$/pollsapp/models.py" />
         <option value="$PROJECT_DIR$/pollsapp/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/pollsapp/templates/polls/results.html" />
         <option value="$PROJECT_DIR$/Polling/urls.py" />
         <option value="$PROJECT_DIR$/pollsapp/urls.py" />
         <option value="$PROJECT_DIR$/pollsapp/views.py" />
         <option value="$PROJECT_DIR$/pollsapp/templates/polls/detail.html" />
+        <option value="$PROJECT_DIR$/pollsapp/tests.py" />
+        <option value="$PROJECT_DIR$/pollsapp/models.py" />
       </list>
     </option>
   </component>
@@ -200,7 +201,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: pollsapp.tests.QuestionModelTests">
+    <configuration name="Test: pollsapp.tests.QuestionModelTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Polling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="pollsapp.tests.QuestionModelTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Polling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Polling" type="Python.DjangoServer" factoryName="Django server">
       <module name="Polling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,6 +266,12 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: pollsapp.tests.QuestionModelTests" />
+        <item itemvalue="Django tests.Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -236,29 +283,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588244832701</updated>
-      <workItem from="1588244834675" duration="11293000" />
+      <workItem from="1588244834675" duration="12408000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test__pollsapp_tests_QuestionModelTests_test_was_published_recently_with_future_question - 2020.04.30 at 23h 08m 25s.xml">
+      <configuration name="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__pollsapp_tests_QuestionModelTests_test_was_published_recently_with_future_question - 2020.04.30 at 23h 08m 51s.xml">
+      <configuration name="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__pollsapp_tests_QuestionModelTests_test_was_published_recently_with_future_question - 2020.04.30 at 23h 09m 08s.xml">
+      <configuration name="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__pollsapp_tests_QuestionModelTests_test_was_published_recently_with_future_question - 2020.04.30 at 23h 09m 29s.xml">
+      <configuration name="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__pollsapp_tests_QuestionModelTests_test_was_published_recently_with_future_question - 2020.04.30 at 23h 21m 22s.xml">
+      <configuration name="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11293000" />
+    <option name="totallyTimeSpent" value="12408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16882068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16882068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.329927" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27737227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42335767" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.329927" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,6 +335,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Polling$Test__pollsapp_tests_QuestionModelTests.coverage" NAME="Test: pollsapp.tests.QuestionModelTests Coverage Results" MODIFIED="1588281795357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Polling$Test__pollsapp_tests_QuestionModelTests_test_was_published_recently_with_future_question.coverage" NAME="Test: pollsapp.tests.QuestionModelTests.test_was_published_recently_with_future_question Coverage Results" MODIFIED="1588281681497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pollsapp/apps.py">
@@ -301,27 +368,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pollsapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#1#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
@@ -359,6 +409,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pollsapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -369,12 +436,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pollsapp/templates/polls/detail.html">
+    <entry file="file://$PROJECT_DIR$/pollsapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="253">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="e#1#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pollsapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
