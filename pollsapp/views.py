@@ -11,10 +11,6 @@ def index(request):
     return render(request, 'polls/index.html', context)
 
 
-def polls_list(request):
-    return HttpResponse("Here is the list of all the polls")
-
-
 def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     return render(request, 'polls/detail.html', {'question': question})
